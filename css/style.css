@@ -1,0 +1,146 @@
+body{
+    background: linear-gradient(45deg, yellow, aqua);
+    background-image: url("img/img9.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.2em;
+}
+span{
+    font-weight: bold;
+    color: white;
+    font-family:  cursive;
+    font-style: italic;
+}
+.local_span{
+    color: blue;
+    font-weight: bold;
+    text-shadow: 50px 50px 50px 50px red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+.form{
+    width: 400px;
+    height: 500px;
+    background: rgba(251, 251, 251, .7);
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .3);
+}
+form{
+    padding: 45px;
+    background: transparent;
+    width: 250px;
+    height: 310px;
+    margin: 30px;
+    position: relative;
+    top: 50px;
+}
+input{
+    padding: 12px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    border-radius: 250px;
+    border: none;
+    border-bottom: 1px solid gray;
+    transition: 1s;
+}
+.name{
+     z-index: 1;
+     position: relative;
+     left: 80%;
+     top: 2%;
+}
+.speudo{
+    z-index: 1;
+    position: relative;
+    left: 80%;
+    top: 2%;
+}
+.mail{
+    z-index: 1;
+    position: relative;
+    left: 80%;
+    top: 2%;
+}
+.password{
+    z-index: 1;
+    position: relative;
+    left: 80%;
+    top: 2%;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus{
+        background: rgba(255, 255, 255, .1);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .1), -5px 5px 5px 5px rgba(0, 0, 0, .1);
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="button"]:hover{
+     background: rgba(0, 0, 0, .2);
+     box-shadow: 2px 2px 2px 2px gray;
+}
+input[type="button"]{
+    position: relative;
+    top: 40px;
+    right: 14px;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    background: transparent;
+    color: blue;
+}
+.password_forgate{
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.password_forgate:hover{
+    color: red;
+}
+/* gestion des drop design*/
+
+.drop{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(251, 251, 251, .8);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .3);
+    position: absolute;   
+}
+.drop1{
+    left: -85px;
+    bottom: 10%;
+    border-radius: 50%;
+}
+.drop2{
+    right: -25%;
+    bottom: 96%;
+    border-radius: 50%;
+
+}
+.drop3{
+    width: 300px;
+    height: 300px;
+    bottom: 50%;
+    left: 40%;
+    border-radius: 50%;
+    z-index: -1;
+}

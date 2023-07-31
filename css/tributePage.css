@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#bloc_page{
+    font-family:  Helvetica, Arial, sans-serif;
+    
+}
+.annonce{
+    width: 100vw;
+    height: 10vh;
+    background: black;
+    color: white;
+}
+.annonce h2{
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: whitesmoke;
+    border: none;
+    border-bottom: 2px solid black;
+}
+img{
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.text{
+    padding: 15px;
+    padding-top: 15px
+}
+.text h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.text p{
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.biographie{
+    width: 100vw;
+    height: 50%;
+    background: black;
+    color: white;
+}
+.biographie h1{
+    padding: 20px;
+    text-align: center;
+}
+.txt{
+    width: 500px;
+    margin-left: 32%;
+    margin-top: 2%;
+}
