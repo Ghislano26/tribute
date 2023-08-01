@@ -121,6 +121,8 @@ hr{
 
 /* Gestion des Medias Querys*/
 
+/*Utiliser un breakpoint de 600px pour tout*/
+
 @media only screen and (max-width: 1115px){
     
 .presentation__name{
@@ -182,7 +184,7 @@ hr{
         }
         }
 
-        @media only screen and (max-width: 753px){
+        @media only screen and (max-width: 600px){
     
             .presentation__name{
                 padding: 1rem;
@@ -207,12 +209,15 @@ hr{
                 justify-content: center;
                 padding-left: 60rem;
             }
+            .biopgraphie{
+                height: 10%;
+            }
             .biopgraphie__name h1{
                 font-size: 3rem;
                 color: var(--color-smname);
             }
             .biopgraphie__text p{
-                font-size: 1.5rem;
+                font-size: 2rem;
                 font-family: var(--p-font);
                 color: var(--color-smname);
             }
@@ -294,9 +299,8 @@ hr{
                     
                 }
                 @media only screen and (max-width: 462px){
-                    
                     .biopgraphie{
-                        height: 80vh;
+                        height: 70vh;
                     }
                     
                 }
@@ -307,6 +311,81 @@ hr{
                         justify-content: center;
                         padding-left: 1rem;
                     }
+                    
+                    
+                }
+                @media only screen and (max-width: 384px){
+                    
+                    .presentention{
+                        width: 50rem;
+                        height: 50rem;
+                    }
+                    .presentation__name{
+                        width: 100%;
+                        padding: 0;
+                    }
+                    .presentation__name h1{
+                        font-family: var(--Bigname-font);
+                        font-size: 2.5rem;
+                        margin: 0 auto;
+                        
+                    }
+                    .presentation__name p{
+                        font-family: var(--smname-font);
+                        font-size: 1.9rem;
+                        margin-left: 0;
+                    }
+                    .presentation__image{
+                        width: 100%;
+                    }
+                    .presentation__image img{
+                        width: 25rem;
+                        height: 25rem;
+                        margin-left: 12rem;
+                    }
+
+                    .biopgraphie{
+                        width: 50rem;
+                        height: 60rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .biopgraphie__name{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .biopgraphie__name h1{
+                        font-size: 3.5rem;
+                        color: var(--color-smname);
+                    }
+                    .biopgraphie__text{
+                        display: flex;
+                        padding: 1rem 2rem 2rem 2rem;
+                        width: 50rem;
+                    }
+                    .biopgraphie__text p{
+                        font-size: 1.9rem;
+                        padding: 1rem;
+                        font-family: var(--p-font);
+                        color: var(--color-smname);
+                    }
+                    .signature{
+                        display: flex;
+                        justify-content: center;
+                        padding-left: 12rem;
+                    }
+                    .smname {
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        color: var(--color-smname);
+                        width: 50rem;
+                        height: 10rem;
+                      }
+                    
                     
                 }
         

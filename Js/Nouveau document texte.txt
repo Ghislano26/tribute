@@ -1,0 +1,7 @@
+clip-path: polygon(0 0, 0 61%, 100% 0); Polygone header
+clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); poligone flech
+clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%); polygone flech droite
+clip-path: circle(52.1% at 9% 50%); circle div
+clip-path: circle(50% at 85% 44%); cercle renvzrse
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
